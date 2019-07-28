@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Receiver {
 
-    @JmsListener(destination = "olegk-queue"/*, containerFactory = "myFactory"*/)
+    @JmsListener(destination = "${aws.destination_name}")
     public void receiveMessage(Email email) {
         System.out.println("Received <" + email + ">");
     }

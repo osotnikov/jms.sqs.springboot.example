@@ -1,0 +1,5 @@
+aws:
+  access_key: ${AWS_ACCESS_KEY}
+  secret_key: ${AWS_SECRET_KEY}
+  region: ${AWS_REGION:us-east-2}
+  destination_name: ${AWS_DESTINATION_NAME:test_queue_2}

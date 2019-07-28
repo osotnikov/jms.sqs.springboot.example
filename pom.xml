@@ -30,6 +30,15 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+        <!-- CODE GENERATION -->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- JMS -->
 
         <dependency>
