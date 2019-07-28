@@ -23,11 +23,9 @@
 hs_err_pid*
 
 # maven
-
-*/target
+/target/*
 
 # intellij
 *.iml
-*/.idea
 *.idea
 
